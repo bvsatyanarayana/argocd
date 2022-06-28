@@ -16,5 +16,5 @@ spec:
     namespace: example-app
   syncPolicy:
     automated:
-      prune: true
-      selfHeal: true
+      prune: false
+      selfHeal: false
