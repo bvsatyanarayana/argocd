@@ -1,2 +1,2 @@
 # argocd
-repo dedicated for argo
+repo dedicated for argocd
