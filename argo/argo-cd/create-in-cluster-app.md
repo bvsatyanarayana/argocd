@@ -14,15 +14,15 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test
-  namespace: marcel
+  namespace: satya
 spec:
   project: default
   source:
-    repoURL: https://github.com/marcel-dempers/docker-development-youtube-series.git
+    repoURL: https://github.com/bvsatyanarayana/argocd.git
     targetRevision: HEAD
     path: argo/example-app
   destination:
     server: https://kubernetes.default.svc
-    namespace: marcel
+    namespace: satya
 ```
 
